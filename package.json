@@ -1,0 +1,24 @@
+{
+  "name": "blog-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzhiquan/blog-vuepress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "tailwindcss": "^1.0.4",
+    "vuepress": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "vuepress-plugin-reading-time": "^0.1.1"
+  }
+}
