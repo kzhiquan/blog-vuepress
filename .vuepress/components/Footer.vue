@@ -1,6 +1,6 @@
 <template>
   <footer class="font-sans bg-black text-white py-8 px-4 absolute bottom-0 inset-x-0">
-    <div class="text-grey-darker text-center">Copyright @2019 Powered by Picsee</div>
+    <div class="text-grey-darker text-center">Copyright @2019 Powered by chitaner</div>
   </footer>
 </template>
 
