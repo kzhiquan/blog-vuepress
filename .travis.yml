@@ -2,7 +2,7 @@ language: node_js
 node_js: stable
 before_install:
 - openssl aes-256-cbc -K $encrypted_ab176a35cf3c_key -iv $encrypted_ab176a35cf3c_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host 45.63.79.24\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - npm install
