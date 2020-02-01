@@ -16,5 +16,11 @@ module.exports = {
         require("autoprefixer"),
       ],
     },
-    plugins: ['vuepress-plugin-reading-time'],
+    plugins: ['vuepress-plugin-reading-time',
+              ['@vuepress/google-analytics',
+                {
+                  'ga': 'UA-150406837-1'
+                }
+              ]
+            ],
   }
