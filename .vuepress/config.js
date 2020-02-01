@@ -1,7 +1,6 @@
 module.exports = {
     title: "Blog - chitaner blog",
     description: "a blog of chitaner",
-    ga: "UA-33278530-1",
     serviceWorker: true,
     head: [
       ['link', { rel: 'icon', href: '/logo.png'}]
