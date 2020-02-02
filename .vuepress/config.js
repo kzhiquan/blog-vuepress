@@ -22,18 +22,25 @@ module.exports = {
                 }
               ],
               [
-                'gitalk-maker',
+                'vuepress-plugin-comment',
                 {
-                  gitalkConfig: {
+                  choosen: 'gitalk', 
+                  options: {
                     clientID: 'e311dfde0df52af856aa',
                     clientSecret: '60e9d1059d9b435f90944df9cf292ac032ae2c3c',
                     repo: 'blog-vuepress',
                     owner: 'kzhiquan',
-                    admin: [''],
-                    // id: location.pathname, // 无法配置默认用 location.pathname
-                    distractionFreeMode: false, // Facebook-like distraction free mode
-                  },
-                },
-              ]
+                    admin: ['kzhiquan'],
+                    id: '<%- frontmatter && (frontmatter.commentid || frontmatter.permalink || frontmatter.title || frontmatter.to.path) || window.location.pathname %>', // Ensure uniqueness and length less than 50
+                    distractionFreeMode: false,  // Facebook-like distraction free mode
+                    labels: ['Gitalk', 'Comment'],
+                    title: '「评论」<%- frontmatter.title %>',
+                    body: '<%- frontmatter.title %>：<%- window.location.origin %><%- frontmatter.to.path || window.location.pathname %>'
+                  }
+
+                }
+              ],
+
+
             ],
   }
