@@ -1,5 +1,5 @@
 module.exports = {
-    title: "Blog - chitaner blog",
+    title: "Blog - chitaner",
     description: "a blog of chitaner",
     serviceWorker: true,
     head: [
@@ -7,6 +7,7 @@ module.exports = {
     ],
     themeConfig: {
       nav: [{ text: "首页", link: "/" }, 
+            { text: "产品", link: "/product/"},
             { text: "关于", link: "/about/" },],
     },
     postcss: {
