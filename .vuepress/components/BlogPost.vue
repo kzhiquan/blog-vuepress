@@ -6,6 +6,7 @@
           <div style="display: inline-block; margin-left: 1.25rem; font-size: .875rem; font-weight: 200;">{{ this.$page.frontmatter.date.substring(0,10) }}</div>
           <div style="height: 0.5px; border: 0; border-top: 0.5px solid #ddd; margin-top: 6px;" />
           <Content style="padding-bottom: 96px; padding-top: 16px;"/>
+          <div id="gitalk-container"></div>
         </div>
         </Content>
         <Footer/>
