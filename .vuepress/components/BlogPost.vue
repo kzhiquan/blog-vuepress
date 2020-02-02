@@ -5,8 +5,8 @@
           <div style="fontSize: 1.5rem; font-weight: 500; margin: 0px;display: inline-block;">{{this.$page.title}}</div>
           <div style="display: inline-block; margin-left: 1.25rem; font-size: .875rem; font-weight: 200;">{{ this.$page.frontmatter.date.substring(0,10) }}</div>
           <div style="height: 0.5px; border: 0; border-top: 0.5px solid #ddd; margin-top: 6px;" />
-          <Content style="padding-bottom: 32npmpx; padding-top: 16px;"/>
-          <div class="comment">
+          <Content style="padding-bottom: 32px; padding-top: 24px;"/>
+          <div class="comment"  style="padding-bottom: 96px;">
           </div>
           <Comment />
         </div>
