@@ -6,7 +6,7 @@ title: MacBook Pro 16入手记
 
 年前在拼多多下的单，第二天就拿到手，顺丰派送挺快。刚开始踯躅不前，犹豫好久，担心不靠谱，掉坑里。不过，经过搜索查阅网上的一些购买评价反馈信息，平台百亿补贴大多成功下车，遂决定勇敢剁手，关键还是耐不住它的价低。<!-- more -->我买的丐版，到手15899，平台补贴1200，商家出货17099，苹果官网价18999，当然其他平台还有更便宜的，比如淘宝上有15000左右的，闲鱼有75/85的员工折扣、教育优惠等，不过我不大敢选择这种渠道，一是受众面窄用户量小，二是没有前人购买痕迹可查，这样风险的几率是比较高的。拼多多平台的价格也偶有变化，有时15899，有时15999，有时16299，双十二时低至14999，我没能赶到那时机。价格没有最低，只有更低，人心大多是贪婪的，无可厚非，小市民，不能阔绰地活着。
 
-## **购买需求**
+## 购买需求
 有需求，适合自己，适度超前，在电子产品的选购上，往往比较实用合适。按照这个标准，于我，16年购买MacBook Air(early 2015)是一次比较糟糕的选购。因为作为一个程序开发者，对性能和存储是有一定要求的，随着工程文件越来越多，编译慢如蜗牛，出去溜一圈，进度条还在爬，工作效率的降低，有时能影响一天的心情。想来，MacBook Air定位于轻薄移动办公本，是不无道理的。两三个月前，我还尝试将[Picsee](https://picsee.chitaner.com)项目进行模块化改造，以期减少编译时间，效果也是明显的，由原先的240s左右降到60s左右，但是随着macOS系统、Xcode版本的升级，MacBook Air(early 2015)下Xcode操控体验越来越差，经常卡死，代码API提示基本无。在选购产品这一点上，老婆是胆大勇往而不计后果的，最近搓搓着想买iPhone 11 Pro Max,而我则往往谨小慎微。正确的选购，除了清楚自己的需求，还应了解市面上的产品，而当初在京东选购的MacBook Air(early 2015)则是无脑的，无脑购是简单的，但不适合的选择造成时间的浪费是不可估算的。这次选购在配置上的遗憾是未能将内存扩到32G，原因是商家没提供定制版的，综合考虑，我选择了妥协，妥协是小市民的生存策略，生活中，有太多事是无奈的妥协，时间久了，也就习惯了。
 
 ## 拆箱验货
@@ -27,15 +27,15 @@ title: MacBook Pro 16入手记
 - 键盘回归剪刀式，比MacBook Air(early 2015)按键有弹性，但比不上Filco minila机械键盘手感。
 - 由于MacBook Pro 16寸配备四个Type-C接口，对于不支持Type-C的设备需要转接线或者扩展盒。
 
-![MacBook Pro(16-inch, 2019)](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201220314_KTjsN0_MacBook_Pro_16.png)
+![MacBook Pro(16-inch, 2019)](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161333_FbZOzb_MacBook_Pro_16.png)
 
 [//]: #![MacBookPro(16-inch,2019)](./images/MacBook_Pro_16.png)
 
-![MacBook Pro(16-inch, 2019)与MacBook Air(13-inch, early 2015](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201220850_Lw8AuJ_pro_air_compare.png)
+![MacBook Pro(16-inch, 2019)与MacBook Air(13-inch, early 2015](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161411_LDyBRs_pro_air_compare.png)
 
 [//]: #![MacBookPro(16-inch,2019)与MacBookAir(13-inch,early2015)对比](./images/pro_air_compare.png)
 
-![MacBook Pro(16-inch, 2019)外包装黄色纸皮盒子](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201223052_5EKz6W_yellow_box.png)
+![MacBook Pro(16-inch, 2019)外包装黄色纸皮盒子](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161458_LwmjBZ_yellow_box.png)
 
 [//]: #![MacBookPro(16-inch,2019)外包装黄色纸皮盒子](./images/yellow_box.png)
 
@@ -61,7 +61,7 @@ title: MacBook Pro 16入手记
 ### 硬盘读写速度测试
 测试工具采用Blackmagic Disk Speed Test，可直接在App Store上免费下载。以下图结果是三台机器硬盘的读写速度对比。
 
-![三台机器硬盘读写速度测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201221051_pOlFUk_disk_test.png)
+![三台机器硬盘读写速度测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161531_6IcyZz_disk_test.png)
 
 [//]: #![三台机器硬盘读写速度测试对比](./images/disk_test.png)
 
@@ -76,7 +76,7 @@ MacBook Air 13写速度是iMac 21.5的9.4倍，读速度是2.3倍，看来苹果
 #### Intel Power Gadge 压力测评
 直接运行Intel Power Gadge，在菜单栏Test中选择All Thread Frequency进行测试。三台机器运行的对比结果。
 
-![三台机器CPU All Thread Frequency 测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201221130_988dO4_cpu_all_thread_frequency_test.png)
+![三台机器CPU All Thread Frequency 测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161604_dcRlMF_cpu_all_thread_frequency_test.png)
 
 [//]: #![三台机器CPUAllThreadFrequency测试对比](./images/cpu_all_thread_frequency_test.png)
 
@@ -86,11 +86,11 @@ MacBook Air 13写速度是iMac 21.5的9.4倍，读速度是2.3倍，看来苹果
 #### 视频编码压力测评
 运行HandBrake，对《推动中国改革开放的日本人》纪录片进行编码，如图所示设置，点击工具栏上的start按钮，开始监测。三台机器的Intel Power Gadge监测对比结果如下。
 
-![HandBrake视频编码设置](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201221221_cP7L0V_HandBrake_set.png)
+![HandBrake视频编码设置](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161642_IB9OAO_HandBrake_set.png)
 
 [//]: #![HandBrake视频编码设置](./images/HandBrake_set.png)
 
-![三台机器视频编码CPU压力测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200201221320_nSWhMf_cpu_video_test.png)
+![三台机器视频编码CPU压力测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161713_9ZlIUj_cpu_video_test.png)
 
 [//]: #![三台机器视频编码CPU压力测试对比](./images/cpu_video_test.png)
 
