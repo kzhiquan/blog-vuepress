@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Nav/>
-    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24">
+    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow content">
       <div class="text-4xl font-bold pt-12">草稿</div>
       <div class="border-solid border-t mb-3"></div>
       <div class="pt-3">
@@ -34,7 +34,7 @@ export default {
 <style lang="stylus" scoped>
 @import '../styles-1/custom.styl';
 @media screen and (min-width: 960px){
-  .theme-default-content{
+  .content{
       min-width : 740px;
   }
 }

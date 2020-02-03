@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col min-h-screen">
     <Nav/>
-    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow">
+    <div style="max-width: 740px;margin: 0 auto;" class="py-8 px-6 pb-24 flex-grow content">
       <div class="pt-3">
         <div v-for="post in posts">
           <router-link :to="post.path" class="text-2xl pr-2">{{ post.title }}</router-link>
@@ -35,7 +35,7 @@ export default {
 <style lang="stylus" scoped>
 @import '../styles-1/custom.styl';
 @media screen and (min-width: 960px){
-    .theme-default-content{
+    .content{
         min-width : 740px;
     }
 }
