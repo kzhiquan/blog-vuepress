@@ -27,17 +27,11 @@ title: MacBook Pro 16入手记
 - 键盘回归剪刀式，比MacBook Air(early 2015)按键有弹性，但比不上Filco minila机械键盘手感。
 - 由于MacBook Pro 16寸配备四个Type-C接口，对于不支持Type-C的设备需要转接线或者扩展盒。
 
-![MacBook Pro(16-inch, 2019)](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161333_FbZOzb_MacBook_Pro_16.png)
+![MacBookPro(16-inch, 2019)](./images/MacBook_Pro_16_Get_Record/MacBook_Pro_16.png)
 
-[//]: #![MacBookPro(16-inch,2019)](./images/MacBook_Pro_16.png)
+![MacBookPro(16-inch, 2019)与MacBookAir(13-inch,early2015)对比](./images/MacBook_Pro_16_Get_Record/pro_air_compare.png)
 
-![MacBook Pro(16-inch, 2019)与MacBook Air(13-inch, early 2015](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161411_LDyBRs_pro_air_compare.png)
-
-[//]: #![MacBookPro(16-inch,2019)与MacBookAir(13-inch,early2015)对比](./images/pro_air_compare.png)
-
-![MacBook Pro(16-inch, 2019)外包装黄色纸皮盒子](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161458_LwmjBZ_yellow_box.png)
-
-[//]: #![MacBookPro(16-inch,2019)外包装黄色纸皮盒子](./images/yellow_box.png)
+![MacBookPro(16-inch, 2019)外包装黄色纸皮盒子](./images/MacBook_Pro_16_Get_Record/yellow_box.png)
 
 ## 性能测试
 手上有三台苹果PC端机器，一台是MacBook Air(13-inch, early 2015), 另一台是iMac（21.5-inch, Late 2012），还有就是手上新购这台MacBook Pro(16-inch, 2019)，各配置信息如下。
@@ -61,9 +55,7 @@ title: MacBook Pro 16入手记
 ### 硬盘读写速度测试
 测试工具采用Blackmagic Disk Speed Test，可直接在App Store上免费下载。以下图结果是三台机器硬盘的读写速度对比。
 
-![三台机器硬盘读写速度测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161531_6IcyZz_disk_test.png)
-
-[//]: #![三台机器硬盘读写速度测试对比](./images/disk_test.png)
+![三台机器硬盘读写速度测试对比](./images/MacBook_Pro_16_Get_Record/disk_test.png)
 
 MacBook Air 13写速度是iMac 21.5的9.4倍，读速度是2.3倍，看来苹果原装的SSD比三星SSD快不少，尤其在写数据上；而MacBook Pro 16写速度是MacBook Air 13的7.4倍，读速度是2.4倍，写速度提升明显，对比三星SSD则全面碾压。
 ### CPU压力性能测试
@@ -76,9 +68,7 @@ MacBook Air 13写速度是iMac 21.5的9.4倍，读速度是2.3倍，看来苹果
 #### Intel Power Gadge 压力测评
 直接运行Intel Power Gadge，在菜单栏Test中选择All Thread Frequency进行测试。三台机器运行的对比结果。
 
-![三台机器CPU All Thread Frequency 测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161604_dcRlMF_cpu_all_thread_frequency_test.png)
-
-[//]: #![三台机器CPUAllThreadFrequency测试对比](./images/cpu_all_thread_frequency_test.png)
+![三台机器CPU All Thread Frequency测试对比](./images/MacBook_Pro_16_Get_Record/cpu_all_thread_frequency_test.png)
 
 - 在CPU温度控制上，MacBook Air 13均值达到72度，iMac 21.5均值达到56度，Macbook Pro 16均值达到94度，可见一体机在这方面的优势，而Macbook Pro 16由于CPU功率较大，直逼100度.
 - 在CPU频率发挥上，MacBook Air 13均值达到2.5GHz，与理论最大值2.7Ghz,差0.2Ghz; iMac 21.5均值达到2.8GHz, 与理论最大值3.2GHz，差距0.4Ghz; Macbook Pro 16均值达到4.0GHz，与理论最大值4.5GHz，差距0.5Ghz;由此可知，MacBook Air 13 CPU频率有7%没有发挥，iMac 21.5有12.5%没有发挥，Macbook Pro 16有11%没有发挥。
@@ -86,13 +76,9 @@ MacBook Air 13写速度是iMac 21.5的9.4倍，读速度是2.3倍，看来苹果
 #### 视频编码压力测评
 运行HandBrake，对《推动中国改革开放的日本人》纪录片进行编码，如图所示设置，点击工具栏上的start按钮，开始监测。三台机器的Intel Power Gadge监测对比结果如下。
 
-![HandBrake视频编码设置](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161642_IB9OAO_HandBrake_set.png)
+![HandBrake视频编码设置](./images/MacBook_Pro_16_Get_Record/HandBrake_set.png)
 
-[//]: #![HandBrake视频编码设置](./images/HandBrake_set.png)
-
-![三台机器视频编码CPU压力测试对比](https://picsee-aliyun.oss-cn-hangzhou.aliyuncs.com/20200202161713_9ZlIUj_cpu_video_test.png)
-
-[//]: #![三台机器视频编码CPU压力测试对比](./images/cpu_video_test.png)
+![三台机器视频编码CPU压力测试对比](./images/MacBook_Pro_16_Get_Record/cpu_video_test.png)
 
 - 在CPU温度控制上，MacBook Air 13均值达到93度，iMac 21.5均值达到60度，Macbook Pro 16均值达到88度；在重任务下，iMac继续领先，变动不大，而MacBook Air 13表现最差，极增迅速，Macbook Pro 16反而有所下降。
 - 在CPU频率发挥上，MacBook Air 13，iMac 21.5与All Thread Frequencey下测试表现基本无差异，而在重任务下，Macbook Pro 16均值达到3.0GHz，与理论最大值4.5GHz，差距1.5Ghz，CPU频率有33%未发挥，表现差劲。
