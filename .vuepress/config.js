@@ -22,6 +22,7 @@ module.exports = {
                   'ga': 'UA-150406837-1'
                 }
               ],
+              require('./plugins/my-md5/index.js'),
               [
                 'vuepress-plugin-comment',
                 {
@@ -33,7 +34,7 @@ module.exports = {
                     repo: 'blog-vuepress',
                     owner: 'kzhiquan',
                     admin: ['kzhiquan'],
-                    id: '<%- frontmatter && (frontmatter.commentid || frontmatter.permalink || frontmatter.title || frontmatter.to.path) || window.location.pathname %>', // Ensure uniqueness and length less than 50
+                    id: '<%- window.md5(frontmatter && (frontmatter.commentid || frontmatter.permalink || frontmatter.title || frontmatter.to.path) || window.location.pathname) %>', // Ensure uniqueness and length less than 50
                     distractionFreeMode: false,  // Facebook-like distraction free mode
                     labels: ['Gitalk', 'Comment'],
                     title: '「评论」<%- frontmatter.title %>',
