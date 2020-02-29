@@ -27,7 +27,7 @@ module.exports = {
                 'vuepress-plugin-comment',
                 {
                   choosen: 'gitalk', 
-                  container: '.comment',
+                  container: '.gitalkcomment',
                   options: {
                     clientID: 'e311dfde0df52af856aa',
                     clientSecret: '60e9d1059d9b435f90944df9cf292ac032ae2c3c',

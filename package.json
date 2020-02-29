@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "1.3.0",
-    "vuepress-plugin-comment": "^0.7.2",
+    "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-reading-time": "^0.1.1"
   }
 }

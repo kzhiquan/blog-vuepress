@@ -6,7 +6,7 @@
             <div class="sm:block lg:inline-block sm:ml-5" style="font-size: .875rem; font-weight: 200;">{{ this.$page.frontmatter.date.substring(0,10) }}</div>
             <div style="height: 0.5px; border: 0; border-top: 0.5px solid #ddd; margin-top: 6px;" />
             <Content style="padding-bottom: 32px; padding-top: 24px;"/>
-            <div class="comment"  style="padding-bottom: 96px;"></div>
+            <div class="gitalkcomment"  style="padding-bottom: 96px;"></div>
             <Comment />
         </div>
         <Footer/>
